@@ -1,0 +1,2 @@
+apiKey:
+  ref: request.header.api-key

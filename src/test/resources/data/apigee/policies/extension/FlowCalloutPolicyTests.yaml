@@ -1,0 +1,9 @@
+faultRules: []
+parameters:
+  - name: param1-name
+    ref: param1-ref
+    value: param1-value
+  - name: param2-name
+    ref: param2-ref
+    value: param2-value
+sharedFlowBundle: shared-flow

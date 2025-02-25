@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerifyJWT async="false" continueOnError="false" enabled="true">
+    <IgnoreCriticalHeaders>false</IgnoreCriticalHeaders>
+    <IgnoreIssuedAt>false</IgnoreIssuedAt>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Source>request.header.authorization</Source>
+</VerifyJWT>

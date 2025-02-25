@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLThreatProtection async="false" continueOnError="false" enabled="true">
+    <NameLimits>
+        <Attribute>20</Attribute>
+        <Element>10</Element>
+        <NamespacePrefix>30</NamespacePrefix>
+        <ProcessingInstructionTarget>40</ProcessingInstructionTarget>
+    </NameLimits>
+    <Source>source</Source>
+    <StructuralLimits>
+        <AttributeCountPerElement>20</AttributeCountPerElement>
+        <ChildCount includeComment="true" includeElement="false" includeProcessingInstruction="true" includeText="false">40</ChildCount>
+        <NamespaceCountPerElement>30</NamespaceCountPerElement>
+        <NodeDepth>10</NodeDepth>
+    </StructuralLimits>
+    <ValueLimits>
+        <Attribute>20</Attribute>
+        <Comment>40</Comment>
+        <NamespaceURI>30</NamespaceURI>
+        <ProcessingInstructionData>50</ProcessingInstructionData>
+        <Text>10</Text>
+    </ValueLimits>
+</XMLThreatProtection>

@@ -1,0 +1,20 @@
+<Flow name="flow-name">
+    <Description>flow-description</Description>
+    <Condition>flow-condition</Condition>
+    <Request>
+        <Step>
+            <Name>request-step1-name</Name>
+            <Condition>request-step1-condition</Condition>
+        </Step>
+        <Step>
+            <Name>request-step2-name</Name>
+            <Condition>request-step2-condition</Condition>
+        </Step>
+    </Request>
+    <Response>
+        <Step>
+            <Name>response-step-name</Name>
+            <Condition>response-step-condition</Condition>
+        </Step>
+    </Response>
+</Flow>

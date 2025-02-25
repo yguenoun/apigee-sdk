@@ -1,0 +1,20 @@
+cacheContext:
+  apiProxyName:
+    ref: apiproxy-ref
+    value: apiproxy
+  proxyName:
+    ref: proxy-ref
+    value: proxy
+  targetName:
+    ref: target-ref
+    value: target
+cacheKey:
+  keyFragment:
+    - ref: ref1
+      value: val1
+    - ref: ref2
+      value: val2
+  prefix: prefix
+cacheResource: cache
+purgeChildEntries: true
+scope: Proxy

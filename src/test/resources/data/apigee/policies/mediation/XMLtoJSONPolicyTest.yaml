@@ -1,0 +1,23 @@
+format: format
+options:
+  attributeBlockName: attrblockname
+  attributePrefix: attrprefix
+  defaultNamespaceNodeName: default
+  namespaceBlockName: nblockname
+  namespaceSeparator: separator
+  nullValue: true
+  outputPrefix: outprefix
+  outputSuffix: outsuffix
+  treatAsArray:
+    - unwrap: true
+      value: path1
+    - unwrap: false
+      value: path2
+  recognizeBoolean: true
+  recognizeNull: true
+  recognizeNumber: true
+  stripLevels: 4
+  textAlwaysAsProperty: true
+  textNodeName: txtnode
+outputVariable: output
+source: source

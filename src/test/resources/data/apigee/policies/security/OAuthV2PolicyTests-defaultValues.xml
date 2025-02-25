@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true">
+    <AccessTokenPrefix>Bearer</AccessTokenPrefix>
+    <ClientId>request.formparam.client_id</ClientId>
+    <Code>request.formparam.code</Code>
+    <GenerateErrorResponse enabled="false"/>
+    <GenerateResponse enabled="false"/>
+    <GrantType>request.formparam.grant_type</GrantType>
+    <PassWord>request.formparam.password</PassWord>
+    <RedirectUri>request.formparam.redirect_uri</RedirectUri>
+    <RefreshToken>request.formparam.refresh_token</RefreshToken>
+    <ResponseType>request.formparam.response_type</ResponseType>
+    <ReuseRefreshToken>false</ReuseRefreshToken>
+    <StoreToken>false</StoreToken>
+    <SupportedGrantTypes>
+        <GrantType>authorization_code</GrantType>
+        <GrantType>implicit</GrantType>
+    </SupportedGrantTypes>
+    <UserName>request.formparam.username</UserName>
+</OAuthV2>

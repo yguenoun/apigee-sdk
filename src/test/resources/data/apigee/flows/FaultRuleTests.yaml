@@ -1,0 +1,7 @@
+name: faultrule
+condition: condition
+step:
+  - name: step1-name
+    condition: step1-condition
+  - name: step2-name
+    condition: step2-condition

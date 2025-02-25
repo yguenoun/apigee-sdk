@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true">
+    <HTTPTargetConnection/>
+    <LocalTargetConnection/>
+    <Request clearPayload="false" variable="var">
+        <Add/>
+        <Copy/>
+        <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+        <Remove/>
+        <Set/>
+    </Request>
+    <Response>response</Response>
+    <Timeout>1000</Timeout>
+</ServiceCallout>

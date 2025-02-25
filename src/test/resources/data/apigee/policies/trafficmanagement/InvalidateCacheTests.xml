@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InvalidateCache async="false" continueOnError="false" enabled="true">
+    <CacheContext>
+        <APIProxyName ref="apiproxy-ref">apiproxy</APIProxyName>
+        <ProxyName ref="proxy-ref">proxy</ProxyName>
+        <TargetName ref="target-ref">target</TargetName>
+    </CacheContext>
+    <CacheKey>
+        <KeyFragment ref="ref1" type="type1">val1</KeyFragment>
+        <KeyFragment ref="ref2" type="type2">val2</KeyFragment>
+        <Prefix>prefix</Prefix>
+    </CacheKey>
+    <CacheResource>cache</CacheResource>
+    <PurgeChildEntries>true</PurgeChildEntries>
+    <Scope>Proxy</Scope>
+</InvalidateCache>

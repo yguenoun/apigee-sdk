@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PopulateCache async="false" continueOnError="false" enabled="true">
+    <CacheKey/>
+    <ExpirySettings/>
+    <Scope>Exclusive</Scope>
+</PopulateCache>

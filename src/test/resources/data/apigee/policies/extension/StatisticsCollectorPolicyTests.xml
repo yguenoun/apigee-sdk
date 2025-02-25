@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StatisticsCollector async="false" continueOnError="false" enabled="true">
+    <Statistics>
+        <Statistic name="st1-name" ref="st1-ref" type="st1-type">st1-val</Statistic>
+        <Statistic name="st2-name" ref="st2-ref"/>
+    </Statistics>
+</StatisticsCollector>

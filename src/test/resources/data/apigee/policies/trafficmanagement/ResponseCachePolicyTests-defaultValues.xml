@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResponseCache async="false" continueOnError="false" enabled="true">
+    <CacheKey/>
+    <CacheLookupTimeoutInSeconds>30</CacheLookupTimeoutInSeconds>
+    <ExcludeErrorResponse>false</ExcludeErrorResponse>
+    <ExpirySettings/>
+    <Scope>Exclusive</Scope>
+    <UseAcceptHeader>false</UseAcceptHeader>
+    <UseResponseCacheHeaders>false</UseResponseCacheHeaders>
+</ResponseCache>

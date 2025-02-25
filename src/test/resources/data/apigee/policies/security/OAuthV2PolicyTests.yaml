@@ -1,0 +1,53 @@
+accessToken: access_token
+accessTokenPrefix: access_token_prefix
+appEndUser: app_end_user
+attributes:
+  - display: true
+    name: attr1-name
+    ref: attr1-ref
+    value: attr1-val
+  - display: false
+    name: attr2-name
+    value: attr2-val
+  - name: attr3-name
+    value: attr3-val
+clientId: client_id
+code: code
+expiresIn:
+  ref: exp-ref
+  value: exp-val
+externalAccessToken: external_access_token
+externalAuthorization: true
+externalAuthorizationCode: external_authorization_code
+externalRefreshToken: external_refresh_token
+generateErrorResponse:
+  enabled: true
+generateResponse:
+  enabled: true
+grantType: grant_type
+operation: GenerateAccessTokenImplicitGrant
+passWord: password
+redirectUri: redirect_uri
+refreshToken: refresh_token
+refreshTokenExpiresIn:
+  ref: expt-ref
+  value: expt-val
+responseType: response_type
+reuseRefreshToken: true
+scope: scope
+state: state
+storeToken: true
+supportedGrantTypes:
+  grantType:
+    - client_credentials
+    - password
+tokens:
+  - cascade: true
+    type: accesstoken
+    value: token1
+  - cascade: false
+    type: refreshtoken
+    value: token2
+  - type: accesstoken
+    value: token3
+userName: username

@@ -1,0 +1,15 @@
+ipRules:
+  noRuleMatchAction: ALLOW
+  matchRule:
+    - action: ALLOW
+      sourceAddress:
+        - mask: rule1-mask1
+          value: rule1-address1
+        - mask: rule1-mask2
+          value: rule1-address2
+    - action: DENY
+      sourceAddress:
+        - mask: rule2-mask1
+          value: rule2-address1
+ignoreTrueClientIPHeader: false
+validateBasedOn: X_FORWARDED_FOR_FIRST_IP

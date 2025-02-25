@@ -1,0 +1,16 @@
+source: source
+outputVariable: output
+options:
+  omitXmlDeclaration: omit
+  defaultNamespaceNodeName: default
+  namespaceSeparator: separator
+  namespaceBlockName: namespace
+  attributeBlockName: attrblockname
+  attributePrefix: attrprefix
+  objectRootElementName: objroot
+  arrayRootElementName: arrroot
+  arrayItemElementName: arritem
+  indent: indent
+  textNodeName: txtnode
+  nullValue: nullval
+  invalidCharsReplacement: invalid

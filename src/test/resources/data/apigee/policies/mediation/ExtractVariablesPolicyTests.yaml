@@ -1,0 +1,83 @@
+formParam:
+  - name: fpname1
+    pattern:
+      - ignoreCase: true
+        value: fp1pattern1
+  - name: fpname2
+    pattern:
+      - ignoreCase: false
+        value: fp2pattern1
+      - ignoreCase: false
+        value: fp2pattern2
+header:
+  - name: hname1
+    pattern:
+      - ignoreCase: true
+        value: h1pattern1
+  - name: hname2
+    pattern:
+      - ignoreCase: false
+        value: h2pattern1
+      - ignoreCase: false
+        value: h2pattern2
+ignoreUnresolvedVariables: false
+jsonPayload:
+  variable:
+    - name: name1
+      type: type1
+      jsonPath: path1
+    - name: name2
+      type: type2
+      jsonPath: path2
+    - name: name3
+      type: type3
+      jsonPath: path3
+uriPath:
+  - ignoreCase: true
+    value: pattern1
+  - ignoreCase: false
+    value: pattern2
+  - ignoreCase: true
+    value: pattern3
+queryParam:
+  - name: qpname1
+    pattern:
+      - ignoreCase: true
+        value: qp1pattern1
+  - name: qpname2
+    pattern:
+      - ignoreCase: false
+        value: qp2pattern1
+      - ignoreCase: false
+        value: qp2pattern2
+variable:
+  - name: vname1
+    pattern:
+      - ignoreCase: true
+        value: v1pattern1
+  - name: vname2
+    pattern:
+      - ignoreCase: false
+        value: v2pattern1
+      - ignoreCase: false
+        value: v2pattern2
+variablePrefix: prefix
+xmlPayload:
+  stopPayloadProcessing: true
+  namespaces:
+    - prefix: prefix1
+      value: namespace1
+    - prefix: prefix2
+      value: namespace2
+    - prefix: prefix3
+      value: namespace3
+  variable:
+    - name: name1
+      type: type1
+      xPath: path1
+    - name: name2
+      type: type2
+      xPath: path2
+    - name: name3
+      type: type3
+      xPath: path3

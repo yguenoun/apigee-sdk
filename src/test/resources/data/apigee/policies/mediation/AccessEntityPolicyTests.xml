@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccessEntity async="false" continueOnError="false" enabled="true">
+    <EntityIdentifier ref="ei-ref" type="ei-type"/>
+    <EntityType value="type"/>
+    <Identifiers>
+        <Identifier>
+            <EntityIdentifier ref="ei1-ref" type="ei1-type"/>
+            <SecondaryIdentifier ref="si1-ref" type="si1-type"/>
+        </Identifier>
+        <Identifier>
+            <EntityIdentifier ref="ei2-ref" type="ei2-type"/>
+            <SecondaryIdentifier ref="si2-ref" type="si2-type"/>
+        </Identifier>
+        <Identifier>
+            <EntityIdentifier ref="ei3-ref" type="ei3-type"/>
+            <SecondaryIdentifier ref="si3-ref" type="si3-type"/>
+        </Identifier>
+    </Identifiers>
+    <SecondaryIdentifier ref="si-ref" type="si-type"/>
+</AccessEntity>

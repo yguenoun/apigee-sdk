@@ -1,0 +1,10 @@
+assignTo:
+  createNew: false
+  value: assign
+ignoreUnresolvedVariables: false
+operation: Decode
+password:
+  ref: pwd
+source: source
+user:
+  ref: user

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APIProxy name="name" revision="1">
+    <Basepaths>/v1/path1</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>10000</CreatedAt>
+    <CreatedBy>foo</CreatedBy>
+    <Description>description</Description>
+    <DisplayName>display-name</DisplayName>
+    <LastModifiedAt>15000</LastModifiedAt>
+    <LastModifiedBy>bar</LastModifiedBy>
+    <Policies>
+        <Policy>Policy1</Policy>
+        <Policy>Policy2</Policy>
+        <Policy>Policy3</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>ProxyPath1</ProxyEndpoint>
+        <ProxyEndpoint>ProxyPath2</ProxyEndpoint>
+        <ProxyEndpoint>ProxyPath3</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>type1://file1.x</Resource>
+        <Resource>type2://file2.x</Resource>
+        <Resource>type3://file3.x</Resource>
+    </Resources>
+    <SharedFlows>
+        <SharedFlow>sharedFlow1</SharedFlow>
+        <SharedFlow>sharedFlow2</SharedFlow>
+        <SharedFlow>sharedFlow3</SharedFlow>
+    </SharedFlows>
+    <Spec>oas://file.yml</Spec>
+    <TargetEndpoints>
+        <TargetEndpoint>TargetPath1</TargetEndpoint>
+        <TargetEndpoint>TargetPath2</TargetEndpoint>
+        <TargetEndpoint>TargetPath3</TargetEndpoint>
+    </TargetEndpoints>
+    <TargetServers>
+        <TargetServer>targetServer1</TargetServer>
+        <TargetServer>targetServer2</TargetServer>
+        <TargetServer>targetServer3</TargetServer>
+    </TargetServers>
+</APIProxy>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true">
+    <FormParam name="fpname1">
+        <Pattern ignoreCase="true">fp1pattern1</Pattern>
+    </FormParam>
+    <FormParam name="fpname2">
+        <Pattern ignoreCase="false">fp2pattern1</Pattern>
+        <Pattern ignoreCase="false">fp2pattern2</Pattern>
+    </FormParam>
+    <Header name="hname1">
+        <Pattern ignoreCase="true">h1pattern1</Pattern>
+    </Header>
+    <Header name="hname2">
+        <Pattern ignoreCase="false">h2pattern1</Pattern>
+        <Pattern ignoreCase="false">h2pattern2</Pattern>
+    </Header>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <Variable name="name1" type="type1">
+            <JSONPath>path1</JSONPath>
+        </Variable>
+        <Variable name="name2" type="type2">
+            <JSONPath>path2</JSONPath>
+        </Variable>
+        <Variable name="name3" type="type3">
+            <JSONPath>path3</JSONPath>
+        </Variable>
+    </JSONPayload>
+    <URIPath>
+        <Pattern ignoreCase="true">pattern1</Pattern>
+        <Pattern ignoreCase="false">pattern2</Pattern>
+        <Pattern ignoreCase="true">pattern3</Pattern>
+    </URIPath>
+    <QueryParam name="qpname1">
+        <Pattern ignoreCase="true">qp1pattern1</Pattern>
+    </QueryParam>
+    <QueryParam name="qpname2">
+        <Pattern ignoreCase="false">qp2pattern1</Pattern>
+        <Pattern ignoreCase="false">qp2pattern2</Pattern>
+    </QueryParam>
+    <Source clearPayload="true">source</Source>
+    <Variable name="vname1">
+        <Pattern ignoreCase="true">v1pattern1</Pattern>
+    </Variable>
+    <Variable name="vname2">
+        <Pattern ignoreCase="false">v2pattern1</Pattern>
+        <Pattern ignoreCase="false">v2pattern2</Pattern>
+    </Variable>
+    <VariablePrefix>prefix</VariablePrefix>
+    <XMLPayload stopPayloadProcessing="true">
+        <Namespaces>
+            <Namespace prefix="prefix1">namespace1</Namespace>
+            <Namespace prefix="prefix2">namespace2</Namespace>
+            <Namespace prefix="prefix3">namespace3</Namespace>
+        </Namespaces>
+        <Variable name="name1" type="type1">
+            <XPath>path1</XPath>
+        </Variable>
+        <Variable name="name2" type="type2">
+            <XPath>path2</XPath>
+        </Variable>
+        <Variable name="name3" type="type3">
+            <XPath>path3</XPath>
+        </Variable>
+    </XMLPayload>
+</ExtractVariables>

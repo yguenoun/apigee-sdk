@@ -1,0 +1,8 @@
+oasResource: swagger
+options:
+  allowUnspecifiedParameters:
+    cookie: false
+    header: false
+    query: false
+  validateMessageBody: true
+source: source

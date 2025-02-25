@@ -1,0 +1,8 @@
+identifier:
+  ref: ref
+messageWeight:
+  ref: ref
+rate:
+  ref: ref
+  value: value
+useEffectiveCount: true

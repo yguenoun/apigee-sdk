@@ -1,0 +1,5 @@
+includeURL: include
+resourceURL: resource
+timeLimit: 200
+sslInfo:
+  enabled: true

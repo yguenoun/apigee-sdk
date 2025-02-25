@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResponseCache async="false" continueOnError="false" enabled="true">
+    <CacheKey>
+        <KeyFragment ref="ref1">val1</KeyFragment>
+        <KeyFragment ref="ref2">val2</KeyFragment>
+        <Prefix>prefix</Prefix>
+    </CacheKey>
+    <CacheLookupTimeoutInSeconds>10</CacheLookupTimeoutInSeconds>
+    <CacheResource>cache</CacheResource>
+    <ExcludeErrorResponse>true</ExcludeErrorResponse>
+    <ExpirySettings>
+        <ExpiryDate ref="date-ref">10</ExpiryDate>
+        <TimeOfDay ref="time-ref">20</TimeOfDay>
+        <TimeoutInSeconds ref="sec-ref">30</TimeoutInSeconds>
+    </ExpirySettings>
+    <Scope>Proxy</Scope>
+    <SkipCacheLookup>skip-look</SkipCacheLookup>
+    <SkipCachePopulation>skip-pop</SkipCachePopulation>
+    <UseAcceptHeader>true</UseAcceptHeader>
+    <UseResponseCacheHeaders>true</UseResponseCacheHeaders>
+</ResponseCache>

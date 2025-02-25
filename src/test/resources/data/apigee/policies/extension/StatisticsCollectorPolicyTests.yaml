@@ -1,0 +1,9 @@
+statistics:
+  - name: st1-name
+    ref: st1-ref
+    type: st1-type
+    value: st1-value
+  - name: st2-name
+    ref: st2-ref
+    type: st2-type
+    value: st2-value

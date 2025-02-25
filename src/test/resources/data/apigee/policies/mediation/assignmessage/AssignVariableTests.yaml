@@ -1,0 +1,7 @@
+name: name
+propertySetRef: propset-ref
+ref: ref
+template:
+  ref: tref
+  value: tvalue
+value: value

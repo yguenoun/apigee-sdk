@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quota async="false" continueOnError="false" enabled="true" type="rollingwindow">
+    <Allow count="10" countRef="ref">
+        <Class ref="ref">
+            <Allow class="quota-class-1" count="10"/>
+            <Allow class="quota-class-2" count="20"/>
+        </Class>
+    </Allow>
+    <AsynchronousConfiguration>
+        <SyncIntervalInSeconds>10</SyncIntervalInSeconds>
+        <SyncMessageCount>20</SyncMessageCount>
+    </AsynchronousConfiguration>
+    <Distributed>true</Distributed>
+    <Identifier ref="ref"/>
+    <Interval ref="ref">10</Interval>
+    <MessageWeight ref="ref"/>
+    <StartTime>2021-5-27 10:00:00</StartTime>
+    <Synchronous>true</Synchronous>
+    <TimeUnit ref="unit-ref">week</TimeUnit>
+</Quota>

@@ -1,0 +1,38 @@
+name: target
+preFlow:
+  name: pre-flow
+  request:
+    step:
+      - anyAttr: null
+  response:
+    step:
+      - anyAttr: null
+postFlow:
+  name: post-flow
+  request:
+    step:
+      - anyAttr: null
+  response:
+    step:
+      - anyAttr: null
+defaultFaultRule:
+  name: default-faultrule
+faultRules:
+  - name: faultrule
+flows:
+  - name: flow
+localTargetConnection:
+  anyAttr: null
+httpTargetConnection:
+  anyAttr: null
+scriptTarget:
+  arguments:
+    - arg1
+    - arg2
+    - arg3
+  environmentVariables:
+    - name: prop1
+      value: val1
+    - name: prop2
+      value: val2
+  resourceURL: resource

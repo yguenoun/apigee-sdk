@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowCallout async="false" continueOnError="false" enabled="true">
+    <FaultRules/>
+    <Parameters>
+        <Parameter name="param1-name" ref="param1-ref">param1-val</Parameter>
+        <Parameter name="param2-name" ref="param2-ref"/>
+        <Parameter name="param3-name">param3-val</Parameter>
+    </Parameters>
+    <SharedFlowBundle>shared-flow</SharedFlowBundle>
+</FlowCallout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RaiseFault async="false" continueOnError="false" enabled="true">
+    <FaultResponse>
+        <Add/>
+        <AssignVariable/>
+        <AssignVariable/>
+        <Copy/>
+        <Remove/>
+        <Set/>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <ShortFaultReason>true</ShortFaultReason>
+</RaiseFault>

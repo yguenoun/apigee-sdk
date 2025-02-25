@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageLogging async="false" continueOnError="false" enabled="true">
+    <BufferMessage>true</BufferMessage>
+    <File>
+        <FileName>file-name</FileName>
+        <FileRotationOptions rotateFileOnStartup="false">
+            <FileRotationType>TIME_SIZE</FileRotationType>
+            <MaxFileSizeInMB>10</MaxFileSizeInMB>
+            <MaxFilesToRetain>20</MaxFilesToRetain>
+            <RotationFrequency unit="hour">1</RotationFrequency>
+        </FileRotationOptions>
+        <Message>file-message</Message>
+    </File>
+    <Syslog>
+        <FormatMessage>true</FormatMessage>
+        <Host>customhost</Host>
+        <Message>syslog-message</Message>
+        <PayloadOnly>true</PayloadOnly>
+        <Port>80443</Port>
+        <Protocol>TCP</Protocol>
+        <SSLInfo/>
+    </Syslog>
+    <logLevel>ALERT</logLevel>
+</MessageLogging>

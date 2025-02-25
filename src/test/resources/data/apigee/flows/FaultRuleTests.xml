@@ -1,0 +1,11 @@
+<FaultRule name="faultrule">
+    <Condition>condition</Condition>
+    <Step>
+        <Name>step1-name</Name>
+        <Condition>step1-condition</Condition>
+    </Step>
+    <Step>
+        <Name>step2-name</Name>
+        <Condition>step2-condition</Condition>
+    </Step>
+</FaultRule>

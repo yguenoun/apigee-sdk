@@ -1,0 +1,36 @@
+basepaths: v1/path1
+configurationVersion:
+  majorVersion: 4
+  minorVersion: 0
+createdAt: 10000
+createdBy: foo
+description: description
+displayName: display-name
+name: name
+revision: 1
+lastModifiedAt: 15000
+lastModifiedBy: bar
+policies:
+  - Policy1
+  - Policy2
+  - Policy3
+proxyEndpoints:
+  - ProxyPath1
+  - ProxyPath2
+  - ProxyPath3
+resources:
+  - type1://file1.x
+  - type2://file2.x
+  - type3://file3.x
+sharedFlows:
+  - sharedFlow1
+  - sharedFlow2
+  - sharedFlow3
+targetEndpoints:
+  - TargetPath1
+  - TargetPath2
+  - TargetPath3
+targetServers:
+  - targetServer1
+  - targetServer2
+  - targetServer3

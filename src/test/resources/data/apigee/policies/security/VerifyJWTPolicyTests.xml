@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VerifyJWT async="false" continueOnError="false" enabled="true">
+    <AdditionalClaims ref="ac-ref">
+        <Claim array="false" name="acclaim1-name" ref="acclaim1-ref" type="acclaim1-type">acclaim1-val</Claim>
+        <Claim array="true" name="acclaim2-name" ref="acclaim2-ref" type="acclaim2-type"/>
+    </AdditionalClaims>
+    <Algorithm>algtop</Algorithm>
+    <Audience ref="aud-ref">aud-val</Audience>
+    <AdditionalHeaders>
+        <Claim array="false" name="ahclaim1-name" ref="ahclaim1-ref" type="ahclaim1-type">ahclaim1-val</Claim>
+        <Claim array="true" name="ahclaim2-name" ref="ahclaim2-ref" type="ahclaim2-type"/>
+    </AdditionalHeaders>
+    <Id ref="id-ref">id-val</Id>
+    <IgnoreCriticalHeaders>true</IgnoreCriticalHeaders>
+    <IgnoreIssuedAt>true</IgnoreIssuedAt>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Issuer ref="iss-ref">iss-val</Issuer>
+    <KnownHeaders ref="kh-ref">h1,h2,h3</KnownHeaders>
+    <PublicKey>
+        <Certificate ref="cert-ref">cert-val</Certificate>
+        <JWKS ref="jwks-ref" uri="jwks-uri">jwks-val</JWKS>
+        <Value ref="public-ref">public-val</Value>
+    </PublicKey>
+    <SecretKey>
+        <Id ref="secretid-ref">secretid-val</Id>
+        <Value ref="secretval-ref"/>
+    </SecretKey>
+    <Source>source</Source>
+</VerifyJWT>

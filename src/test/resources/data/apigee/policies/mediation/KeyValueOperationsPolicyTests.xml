@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" mapIdentifier="map">
+    <Delete>
+        <Key>
+            <Parameter ref="del1-ref1">del1-param1</Parameter>
+            <Parameter ref="del1-ref2">del1-param2</Parameter>
+        </Key>
+    </Delete>
+    <Delete>
+        <Key>
+            <Parameter ref="del2-ref1">del2-param1</Parameter>
+        </Key>
+    </Delete>
+    <InitialEntries>
+        <Entry>
+            <Key>
+                <Parameter ref="e1-ref1">e1-param1</Parameter>
+            </Key>
+            <Value>e1-value1</Value>
+            <Value>e1-value2</Value>
+        </Entry>
+        <Entry>
+            <Key>
+                <Parameter ref="e2-ref1">e2-param1</Parameter>
+                <Parameter ref="e2-ref2">e2-param2</Parameter>
+            </Key>
+            <Value>e2-value1</Value>
+            <Value>e2-value2</Value>
+        </Entry>
+    </InitialEntries>
+    <ExclusiveCache>deprecated</ExclusiveCache>
+    <ExpiryTimeInSecs>500</ExpiryTimeInSecs>
+    <Get assignTo="get1-assign" index="1">
+        <Key>
+            <Parameter ref="get1-ref1">get1-param1</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="get2-assign" index="2">
+        <Key>
+            <Parameter ref="get2-ref1">get2-param1</Parameter>
+            <Parameter ref="get2-ref2">get2-param2</Parameter>
+        </Key>
+    </Get>
+    <Put override="true">
+        <Key>
+            <Parameter ref="put1-key-ref1">put1-param1</Parameter>
+            <Parameter ref="put1-key-ref2">put1-param2</Parameter>
+        </Key>
+        <Value ref="put1-value-ref1">put1-value1</Value>
+        <Value ref="put1-value-ref2">put1-value2</Value>
+    </Put>
+    <Put override="false">
+        <Key>
+            <Parameter ref="put2-key-ref1">put2-value1</Parameter>
+        </Key>
+        <Value ref="put2-value-ref1">put2-value1</Value>
+    </Put>
+    <Scope>apiproxy</Scope>
+</KeyValueMapOperations>

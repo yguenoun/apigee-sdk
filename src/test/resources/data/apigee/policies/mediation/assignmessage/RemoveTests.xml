@@ -1,0 +1,15 @@
+<Remove>
+    <FormParams>
+        <FormParam name="formparam1">value1</FormParam>
+        <FormParam name="formparam2">value2</FormParam>
+    </FormParams>
+    <Headers>
+        <Header name="header1">value1</Header>
+        <Header name="header2">value2</Header>
+    </Headers>
+    <Payload>true</Payload>
+    <QueryParams>
+        <QueryParam name="queryparam1">value1</QueryParam>
+        <QueryParam name="queryparam2">value2</QueryParam>
+    </QueryParams>
+</Remove>

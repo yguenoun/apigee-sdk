@@ -1,0 +1,18 @@
+add:
+  anyAttr: null
+assignTo:
+  createNew: true
+  transport: transport
+  type: type
+  value: value
+assignVariable:
+  - anyAttr: null
+  - anyAttr: null
+copy:
+  anyAttr: null
+faultRules: []
+ignoreUnresolvedVariables: false
+remove:
+  anyAttr: null
+set:
+  anyAttr: null

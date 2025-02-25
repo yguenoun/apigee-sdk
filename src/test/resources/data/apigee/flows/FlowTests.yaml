@@ -1,0 +1,12 @@
+name: flow-name
+description: flow-description
+request:
+  step:
+    - name: request-step1-name
+      condition: request-step1-condition
+    - name: request-step2-name
+      condition: request-step2-condition
+response:
+  step:
+    - name: response-step-name
+      condition: response-step-condition

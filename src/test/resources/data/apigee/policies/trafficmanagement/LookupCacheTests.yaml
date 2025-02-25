@@ -1,0 +1,13 @@
+assignTo: assign
+cacheKey:
+  keyFragment:
+    - ref: ref1
+      value: val1
+      type: type1
+    - ref: ref2
+      value: val2
+      type: type2
+  prefix: prefix
+cacheLookupTimeoutInSeconds: 10
+cacheResource: cache
+scope: Proxy

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RegularExpressionProtection async="false" continueOnError="false" enabled="true">
+    <FormParam name="form1-name">
+        <Pattern>form1-pattern1</Pattern>
+        <Pattern>form1-pattern2</Pattern>
+    </FormParam>
+    <FormParam name="form2-name">
+        <Pattern>form2-pattern1</Pattern>
+    </FormParam>
+    <Header name="header1-name">
+        <Pattern>header1-pattern1</Pattern>
+        <Pattern>header1-pattern2</Pattern>
+    </Header>
+    <Header name="header2-name">
+        <Pattern>header2-pattern1</Pattern>
+    </Header>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <JSONPath>
+            <Expression>jp1-exp</Expression>
+            <Pattern>jp1-patt1</Pattern>
+            <Pattern>jp1-patt2</Pattern>
+        </JSONPath>
+        <JSONPath>
+            <Expression>jp2-exp</Expression>
+            <Pattern>jp2-patt1</Pattern>
+            <Pattern>jp2-patt2</Pattern>
+            <Pattern>jp2-patt3</Pattern>
+        </JSONPath>
+    </JSONPayload>
+    <URIPath>
+        <Pattern>uri-pattern1</Pattern>
+        <Pattern>uri-pattern2</Pattern>
+    </URIPath>
+    <QueryParam name="query1-name">
+        <Pattern>query1-pattern1</Pattern>
+        <Pattern>query1-pattern2</Pattern>
+    </QueryParam>
+    <QueryParam name="query2-name">
+        <Pattern>query2-pattern1</Pattern>
+    </QueryParam>
+    <Source>source</Source>
+    <Variable name="variable1-name">
+        <Pattern>variable1-pattern1</Pattern>
+        <Pattern>variable1-pattern2</Pattern>
+    </Variable>
+    <Variable name="variable2-name">
+        <Pattern>variable2-pattern1</Pattern>
+    </Variable>
+    <XMLPayload>
+        <Namespaces>
+            <Namespace prefix="n1-pref">n1-val</Namespace>
+            <Namespace prefix="n2-pref">n2-val</Namespace>
+        </Namespaces>
+        <XPath>
+            <Expression>xp1-exp</Expression>
+            <Pattern>xp1-patt1</Pattern>
+            <Pattern>xp1-patt2</Pattern>
+            <Type>xp1-type</Type>
+        </XPath>
+        <XPath>
+            <Expression>xp2-exp</Expression>
+            <Pattern>xp2-patt1</Pattern>
+            <Pattern>xp2-patt2</Pattern>
+            <Pattern>xp2-patt3</Pattern>
+            <Type>xp2-type</Type>
+        </XPath>
+    </XMLPayload>
+</RegularExpressionProtection>

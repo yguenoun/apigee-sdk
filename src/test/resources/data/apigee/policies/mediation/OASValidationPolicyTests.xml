@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OASValidation async="false" continueOnError="false" enabled="true">
+    <OASResource>swagger</OASResource>
+    <Options>
+        <AllowUnspecifiedParameters>
+            <Cookie>false</Cookie>
+            <Header>false</Header>
+            <Query>false</Query>
+        </AllowUnspecifiedParameters>
+        <ValidateMessageBody>true</ValidateMessageBody>
+    </Options>
+    <Source>source</Source>
+</OASValidation>

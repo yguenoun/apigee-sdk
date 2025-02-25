@@ -1,0 +1,20 @@
+cacheKey:
+  keyFragment:
+    - ref: ref1
+      value: val1
+    - ref: ref2
+      value: val2
+  prefix: prefix
+cacheResource: cache
+expirySettings:
+  expiryDate:
+    ref: ref
+    value: 1
+  timeOfDay:
+    ref: ref
+    value: 2
+  timeoutInSeconds:
+    ref: ref
+    value: 3
+scope: Proxy
+source: source

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PopulateCache async="false" continueOnError="false" enabled="true">
+    <CacheKey>
+        <KeyFragment ref="ref1">val1</KeyFragment>
+        <KeyFragment ref="ref2">val2</KeyFragment>
+        <Prefix>prefix</Prefix>
+    </CacheKey>
+    <CacheResource>cache</CacheResource>
+    <ExpirySettings>
+        <ExpiryDate ref="ref">1</ExpiryDate>
+        <TimeOfDay ref="ref">2</TimeOfDay>
+        <TimeoutInSeconds ref="ref">3</TimeoutInSeconds>
+    </ExpirySettings>
+    <Scope>Proxy</Scope>
+    <Source>source</Source>
+</PopulateCache>

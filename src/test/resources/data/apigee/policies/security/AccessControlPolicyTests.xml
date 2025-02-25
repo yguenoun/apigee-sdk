@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccessControl async="false" continueOnError="false" enabled="true">
+    <IPRules noRuleMatchAction="ALLOW">
+        <MatchRule action="ALLOW">
+            <SourceAddress mask="rule1-mask1">rule1-address1</SourceAddress>
+            <SourceAddress mask="rule1-mask2">rule1-address2</SourceAddress>
+        </MatchRule>
+        <MatchRule action="DENY">
+            <SourceAddress mask="rule2-mask1">rule2-address1</SourceAddress>
+        </MatchRule>
+    </IPRules>
+    <IgnoreTrueClientIPHeader>false</IgnoreTrueClientIPHeader>
+    <ValidateBasedOn>X_FORWARDED_FOR_FIRST_IP</ValidateBasedOn>
+</AccessControl>

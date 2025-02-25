@@ -1,0 +1,25 @@
+cacheKey:
+  keyFragment:
+    - ref: ref1
+      value: val1
+    - ref: ref2
+      value: val2
+  prefix: prefix
+cacheLookupTimeoutInSeconds: 10
+cacheResource: cache
+excludeErrorResponse: true
+expirySettings:
+  expiryDate:
+    ref: date-ref
+    value: 10
+  timeOfDay:
+    ref: time-ref
+    value: 20
+  timeoutInSeconds:
+    ref: sec-ref
+    value: 30
+scope: Proxy
+skipCacheLookup: skip-look
+skipCachePopulation: skip-pop
+useAcceptHeader: true
+useResponseCacheHeaders: true

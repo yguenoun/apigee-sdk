@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JSONtoXML async="false" continueOnError="false" enabled="true">
+    <Options>
+        <ArrayItemElementName>arritem</ArrayItemElementName>
+        <ArrayRootElementName>arrroot</ArrayRootElementName>
+        <AttributeBlockName>attrblockname</AttributeBlockName>
+        <AttributePrefix>attrprefix</AttributePrefix>
+        <DefaultNamespaceNodeName>default</DefaultNamespaceNodeName>
+        <Indent>indent</Indent>
+        <InvalidCharsReplacement>invalid</InvalidCharsReplacement>
+        <NamespaceBlockName>namespace</NamespaceBlockName>
+        <NamespaceSeparator>separator</NamespaceSeparator>
+        <NullValue>nullval</NullValue>
+        <ObjectRootElementName>objroot</ObjectRootElementName>
+        <OmitXmlDeclaration>omit</OmitXmlDeclaration>
+        <TextNodeName>txtnode</TextNodeName>
+    </Options>
+    <OutputVariable>output</OutputVariable>
+    <Source>source</Source>
+</JSONtoXML>

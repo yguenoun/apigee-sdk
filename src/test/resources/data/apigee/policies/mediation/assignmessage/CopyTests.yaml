@@ -1,0 +1,22 @@
+source: source
+formParams:
+  - name: formparam1
+    value: value1
+  - name: formparam2
+    value: value2
+headers:
+  - name: header1
+    value: value1
+  - name: header2
+    value: value2
+path: true
+payload: true
+queryParams:
+  - name: queryparam1
+    value: value1
+  - name: queryparam2
+    value: value2
+reasonPhrase: true
+statusCode: true
+verb: true
+version: true

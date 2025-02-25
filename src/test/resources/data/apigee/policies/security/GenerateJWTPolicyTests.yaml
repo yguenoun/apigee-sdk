@@ -1,0 +1,56 @@
+additionalClaims:
+  ref: ac-ref
+  claim:
+    - array: false
+      name: acclaim1-name
+      ref: acclaim1-ref
+      type: acclaim1-type
+      value: acclaim1-val
+    - array: true
+      name: acclaim2-name
+      ref: acclaim2-ref
+      type: acclaim2-type
+algorithm: algtop
+audience:
+  ref: aud-ref
+  value: aud-val
+additionalHeaders:
+  - array: false
+    name: ahclaim1-name
+    ref: ahclaim1-ref
+    type: ahclaim1-type
+    value: ahclaim1-val
+  - array: true
+    name: ahclaim2-name
+    ref: ahclaim2-ref
+    type: ahclaim2-type
+criticalHeaders:
+  ref: crit-ref
+  value: h1,h2,h3
+expiresIn: 1h
+id:
+  ref: id-ref
+  value: id-val
+ignoreUnresolvedVariables: true
+issuer:
+  ref: iss-ref
+  value: iss-val
+notBefore: 10m
+outputVariable: output
+privateKey:
+  id:
+    ref: privateid-ref
+    value: privateid-val
+  password:
+    ref: privatepwd-ref
+  value:
+    ref: privateval-ref
+secretKey:
+  id:
+    ref: secretid-ref
+    value: secretid-val
+  value:
+    ref: secretval-ref
+subject:
+  ref: sub-ref
+  value: sub-val

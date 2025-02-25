@@ -1,0 +1,14 @@
+faultResponse:
+  add:
+    anyAttr: null
+  copy:
+    anyAttr: null
+  set:
+    anyAttr: null
+  remove:
+    anyAttr: null
+  assignVariable:
+    - anyAttr: null
+    - anyAttr: null
+ignoreUnresolvedVariables: false
+shortFaultReason: true

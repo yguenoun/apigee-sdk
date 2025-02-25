@@ -1,0 +1,7 @@
+<AssignVariable>
+    <Name>name</Name>
+    <PropertySetRef>propset-ref</PropertySetRef>
+    <Ref>ref</Ref>
+    <Template ref="tref">tvalue</Template>
+    <Value>value</Value>
+</AssignVariable>

@@ -1,0 +1,65 @@
+formParam:
+  - name: form1-name
+    pattern:
+      - form1-pattern1
+      - form1-pattern2
+  - name: form2-name
+    pattern:
+      - form2-pattern1
+header:
+  - name: header1-name
+    pattern:
+      - header1-pattern1
+      - header1-pattern2
+  - name: header2-name
+    pattern:
+      - header2-pattern1
+ignoreUnresolvedVariables: true
+jsonPayload:
+  - expression: jp1-exp
+    pattern:
+      - jp1-patt1
+      - jp1-patt2
+  - expression: jp2-exp
+    pattern:
+      - jp2-patt1
+      - jp2-patt2
+      - jp2-patt3
+uriPath:
+  - uri-pattern1
+  - uri-pattern2
+queryParam:
+  - name: query1-name
+    pattern:
+      - query1-pattern1
+      - query1-pattern2
+  - name: query2-name
+    pattern:
+      - query2-pattern1
+source: source
+variable:
+  - name: variable1-name
+    pattern:
+      - variable1-pattern1
+      - variable1-pattern2
+  - name: variable2-name
+    pattern:
+      - variable2-pattern1
+xmlPayload:
+  namespaces:
+    - prefix: n1-pref
+      value: n1-val
+    - prefix: n2-pref
+      value: n2-val
+  xPath:
+    - expression: xp1-exp
+      pattern:
+        - xp1-patt1
+        - xp1-patt2
+      type: xp1-type
+    - expression: xp2-exp
+      pattern:
+        - xp2-patt1
+        - xp2-patt2
+        - xp2-patt3
+      type: xp2-type

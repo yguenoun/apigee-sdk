@@ -1,0 +1,27 @@
+entityIdentifier:
+  ref: ei-ref
+  type: ei-type
+secondaryIdentifier:
+  ref: si-ref
+  type: si-type
+entityType:
+  value: type
+identifiers:
+  - entityIdentifier:
+      ref: ei1-ref
+      type: ei1-type
+    secondaryIdentifier:
+      ref: si1-ref
+      type: si1-type
+  - entityIdentifier:
+      ref: ei2-ref
+      type: ei2-type
+    secondaryIdentifier:
+      ref: si2-ref
+      type: si2-type
+  - entityIdentifier:
+      ref: ei3-ref
+      type: ei3-type
+    secondaryIdentifier:
+      ref: si3-ref
+      type: si3-type

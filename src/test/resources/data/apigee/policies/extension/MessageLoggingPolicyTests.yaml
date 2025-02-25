@@ -1,0 +1,22 @@
+bufferMessage: true
+file:
+  fileName: file-name
+  message: file-message
+  fileRotationOptions:
+    rotateFileOnStartup: false
+    fileRotationType: TIME_SIZE
+    maxFileSizeInMB: 10
+    maxFilesToRetain: 20
+    rotationFrequency:
+      unit: hour
+      value: 1
+syslog:
+  formatMessage: true
+  host: customhost
+  message: syslog-message
+  payloadOnly: true
+  port: 80443
+  protocol: TCP
+  sslInfo:
+    enabled: true
+logLevel: INFO

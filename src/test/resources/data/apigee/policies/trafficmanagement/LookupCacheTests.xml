@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LookupCache async="false" continueOnError="false" enabled="true">
+    <AssignTo>assign</AssignTo>
+    <CacheKey>
+        <KeyFragment ref="ref1" type="type1">val1</KeyFragment>
+        <KeyFragment ref="ref2" type="type2">val2</KeyFragment>
+        <Prefix>prefix</Prefix>
+    </CacheKey>
+    <CacheLookupTimeoutInSeconds>10</CacheLookupTimeoutInSeconds>
+    <CacheResource>cache</CacheResource>
+    <Scope>Proxy</Scope>
+</LookupCache>

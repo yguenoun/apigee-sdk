@@ -1,0 +1,22 @@
+nameLimits:
+  attribute: 20
+  element: 10
+  namespacePrefix: 30
+  processingInstructionTarget: 40
+source: source
+structuralLimits:
+  attributeCountPerElement: 20
+  childCount:
+    includeComment: true
+    includeElement: false
+    includeProcessingInstruction: true
+    includeText: false
+    value: 40
+  namespaceCountPerElement: 30
+  nodeDepth: 10
+valueLimits:
+  attribute: 20
+  comment: 40
+  namespaceURI: 30
+  processingInstructionData: 50
+  text: 10

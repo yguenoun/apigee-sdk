@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true">
+    <AccessToken>access_token</AccessToken>
+    <AccessTokenPrefix>access_token_prefix</AccessTokenPrefix>
+    <AppEndUser>app_end_user</AppEndUser>
+    <Attributes>
+        <Attribute display="true" name="attr1-name" ref="attr1-ref">attr1-val</Attribute>
+        <Attribute display="false" name="attr2-name">attr2-val</Attribute>
+        <Attribute name="attr3-name" ref="attr3-ref"/>
+    </Attributes>
+    <ClientId>client_id</ClientId>
+    <Code>code</Code>
+    <ExpiresIn ref="exp-ref">exp-val</ExpiresIn>
+    <ExternalAccessToken>external_access_token</ExternalAccessToken>
+    <ExternalAuthorization>true</ExternalAuthorization>
+    <ExternalAuthorizationCode>external_authorization_code</ExternalAuthorizationCode>
+    <ExternalRefreshToken>external_refresh_token</ExternalRefreshToken>
+    <GenerateErrorResponse enabled="true"/>
+    <GenerateResponse enabled="true"/>
+    <GrantType>grant_type</GrantType>
+    <Operation>GenerateAccessTokenImplicitGrant</Operation>
+    <PassWord>password</PassWord>
+    <RedirectUri>redirect_uri</RedirectUri>
+    <RefreshToken>refresh_token</RefreshToken>
+    <RefreshTokenExpiresIn ref="expt-ref">expt-val</RefreshTokenExpiresIn>
+    <ResponseType>response_type</ResponseType>
+    <ReuseRefreshToken>true</ReuseRefreshToken>
+    <Scope>scope</Scope>
+    <State>state</State>
+    <StoreToken>true</StoreToken>
+    <SupportedGrantTypes>
+        <GrantType>client_credentials</GrantType>
+        <GrantType>password</GrantType>
+    </SupportedGrantTypes>
+    <Tokens>
+        <Token cascade="true" type="accesstoken">token1</Token>
+        <Token cascade="false" type="refreshtoken">token2</Token>
+        <Token type="accesstoken">token3</Token>
+    </Tokens>
+    <UserName>username</UserName>
+</OAuthV2>

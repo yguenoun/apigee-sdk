@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TargetEndpoint name="target">
+    <Description>description</Description>
+    <PreFlow name="pre-flow">
+        <Request/>
+        <Response/>
+    </PreFlow>
+    <PostFlow name="post-flow">
+        <Request/>
+        <Response/>
+    </PostFlow>
+    <DefaultFaultRule name="default-faultrule"/>
+    <LocalTargetConnection/>
+    <HTTPTargetConnection/>
+    <ScriptTarget>
+        <Arguments>
+            <Argument>arg1</Argument>
+            <Argument>arg2</Argument>
+            <Argument>arg3</Argument>
+        </Arguments>
+        <EnvironmentVariables>
+            <EnvironmentVariable name="prop1">val1</EnvironmentVariable>
+            <EnvironmentVariable name="prop2">val2</EnvironmentVariable>
+        </EnvironmentVariables>
+        <ResourceURL>resource</ResourceURL>
+    </ScriptTarget>
+</TargetEndpoint>

@@ -1,0 +1,18 @@
+timeout: 1000
+response: response
+httpTargetConnection:
+  anyAttr: null
+localTargetConnection:
+  anyAttr: null
+request:
+  clearPayload: false
+  variable: var
+  ignoreUnresolvedVariables: true
+  copy:
+    anyAttr: null
+  remove:
+    anyAttr:
+  add:
+    anyAttr: null
+  set:
+    anyAttr: null

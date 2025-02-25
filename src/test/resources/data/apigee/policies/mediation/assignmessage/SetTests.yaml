@@ -1,0 +1,25 @@
+path: path
+payload:
+  contentType: content-type
+  variablePrefix: prefix
+  variableSuffix: suffix
+  value: payload
+reasonPhrase: reason-phrase
+statusCode: status-code
+verb: verb
+version: version
+headers:
+  - name: header1
+    value: value1
+  - name: header2
+    value: value2
+formParams:
+  - name: formparam1
+    value: value1
+  - name: formparam2
+    value: value2
+queryParams:
+  - name: queryparam1
+    value: value1
+  - name: queryparam2
+    value: value2

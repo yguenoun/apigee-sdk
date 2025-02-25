@@ -1,0 +1,56 @@
+additionalClaims:
+  ref: ac-ref
+  claim:
+    - array: false
+      name: acclaim1-name
+      ref: acclaim1-ref
+      type: acclaim1-type
+      value: acclaim1-val
+    - array: true
+      name: acclaim2-name
+      ref: acclaim2-ref
+      type: acclaim2-type
+algorithm: algtop
+audience:
+  ref: aud-ref
+  value: aud-val
+additionalHeaders:
+  - array: false
+    name: ahclaim1-name
+    ref: ahclaim1-ref
+    type: ahclaim1-type
+    value: ahclaim1-val
+  - array: true
+    name: ahclaim2-name
+    ref: ahclaim2-ref
+    type: ahclaim2-type
+id:
+  ref: id-ref
+  value: id-val
+ignoreCriticalHeaders: true
+ignoreIssuedAt: true
+ignoreUnresolvedVariables: true
+issuer:
+  ref: iss-ref
+  value: iss-val
+knownHeaders:
+  ref: kh-ref
+  value: h1,h2,h3
+publicKey:
+  certificate:
+    ref: cert-ref
+    value: cert-val
+  jwks:
+    ref: jwks-ref
+    uri: jwks-uri
+    value: jwks-val
+  value:
+    ref: public-ref
+    value: public-val
+secretKey:
+  id:
+    ref: secretid-ref
+    value: secretid-val
+  value:
+    ref: secretval-ref
+source: source

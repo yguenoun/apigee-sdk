@@ -1,0 +1,51 @@
+name: proxy
+description: proxy description
+preFlow:
+  name: pre-flow
+  request:
+    step:
+      - anyAttr: null
+  response:
+    step:
+      - anyAttr: null
+postFlow:
+  name: post-flow
+  request:
+    step:
+      - anyAttr: null
+  response:
+    step:
+      - anyAttr: null
+defaultFaultRule:
+  name: default-faultrule
+faultRules:
+  - name: faultrule
+flows:
+  - name: flow
+postClientFlow:
+  name: post-client-flow
+  description: post-client-flow-desc
+  response:
+    step:
+      - name: postcf-res-step1-name
+        condition: postcf-res-step1-cond
+      - name: postcf-res-step2-name
+        condition: postcf-res-step2-cond
+httpProxyConnection:
+  basePath: /base-path
+  properties:
+    - name: prop1-name
+      value: prop1-value
+    - name: prop2-name
+      value: prop2-value
+  virtualHost:
+    - default
+    - secure
+routeRule:
+  - name: rr1-name
+    condition: rr1-cond
+    targetEndpoint: rr1-target
+  - name: rr2-name
+    condition: rr2-cond
+    url: rr2-url
+  - name: rr3-name

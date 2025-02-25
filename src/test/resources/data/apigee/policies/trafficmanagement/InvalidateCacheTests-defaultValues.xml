@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InvalidateCache async="false" continueOnError="false" enabled="true">
+    <CacheKey/>
+    <PurgeChildEntries>false</PurgeChildEntries>
+    <Scope>Exclusive</Scope>
+</InvalidateCache>

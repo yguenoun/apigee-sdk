@@ -1,0 +1,68 @@
+mapIdentifier: map
+expiryTimeInSecs: 500
+scope: apiproxy
+exclusiveCache: deprecated
+initialEntries:
+  - key:
+      parameter:
+        - ref: e1-ref1
+          value: e1-param1
+    value:
+      - e1-value1
+      - e1-value2
+  - key:
+      parameter:
+        - ref: e2-ref1
+          value: e2-param1
+        - ref: e2-ref2
+          value: e2-param2
+    value:
+      - e2-value1
+      - e2-value2
+delete:
+  - key:
+      parameter:
+        - ref: del1-ref1
+          value: del1-param1
+        - ref: del1-ref2
+          value: del1-param2
+  - key:
+      parameter:
+        - ref: del2-ref1
+          value: del2-param1
+get:
+  - assignTo: get1-assign
+    index: 1
+    key:
+      parameter:
+        - ref: get1-ref1
+          value: get1-param1
+  - assignTo: get2-assign
+    index: 2
+    key:
+      parameter:
+        - ref: get2-ref1
+          value: get2-param1
+        - ref: get2-ref2
+          value: get2-param2
+put:
+  - override: true
+    key:
+      parameter:
+        - ref: put1-key-ref1
+          value: put1-param1
+        - ref: put1-key-ref2
+          value: put1-param2
+    value:
+      - ref: put1-value-ref1
+        value: put1-value1
+      - ref: put1-value-ref2
+        value: put1-value2
+  - override: false
+    key:
+      parameter:
+        - ref: put2-key-ref1
+          value: put2-param1
+    value:
+      - ref: put2-value-ref1
+        value: put2-value1

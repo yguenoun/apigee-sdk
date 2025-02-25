@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Quota async="false" continueOnError="false" enabled="true" type="calendar">
+    <Allow count="2000"/>
+    <AsynchronousConfiguration>
+        <SyncIntervalInSeconds>10</SyncIntervalInSeconds>
+    </AsynchronousConfiguration>
+    <Distributed>false</Distributed>
+    <Interval/>
+    <Synchronous>false</Synchronous>
+    <TimeUnit/>
+</Quota>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true">
+    <Timeout>55000</Timeout>
+</ServiceCallout>

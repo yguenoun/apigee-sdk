@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenerateJWT async="false" continueOnError="false" enabled="true">
+    <AdditionalClaims ref="ac-ref">
+        <Claim array="false" name="acclaim1-name" ref="acclaim1-ref" type="acclaim1-type">acclaim1-val</Claim>
+        <Claim array="true" name="acclaim2-name" ref="acclaim2-ref" type="acclaim2-type"/>
+    </AdditionalClaims>
+    <Algorithm>algtop</Algorithm>
+    <Audience ref="aud-ref">aud-val</Audience>
+    <AdditionalHeaders>
+        <Claim array="false" name="ahclaim1-name" ref="ahclaim1-ref" type="ahclaim1-type">ahclaim1-val</Claim>
+        <Claim array="true" name="ahclaim2-name" ref="ahclaim2-ref" type="ahclaim2-type"/>
+    </AdditionalHeaders>
+    <CriticalHeaders ref="crit-ref">h1,h2,h3</CriticalHeaders>
+    <ExpiresIn>1h</ExpiresIn>
+    <Id ref="id-ref">id-val</Id>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Issuer ref="iss-ref">iss-val</Issuer>
+    <NotBefore>10m</NotBefore>
+    <OutputVariable>output</OutputVariable>
+    <PrivateKey>
+        <Id ref="privateid-ref">privateid-val</Id>
+        <Password ref="privatepwd-ref"/>
+        <Value ref="privateval-ref"/>
+    </PrivateKey>
+    <SecretKey>
+        <Id ref="secretid-ref">secretid-val</Id>
+        <Value ref="secretval-ref"/>
+    </SecretKey>
+    <Subject ref="sub-ref">sub-val</Subject>
+</GenerateJWT>

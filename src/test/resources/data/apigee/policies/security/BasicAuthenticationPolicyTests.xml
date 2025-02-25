@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BasicAuthentication async="false" continueOnError="false" enabled="true">
+    <AssignTo createNew="false">assign</AssignTo>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <Operation>Decode</Operation>
+    <Password ref="pwd"/>
+    <Source>source</Source>
+    <User ref="user"/>
+</BasicAuthentication>

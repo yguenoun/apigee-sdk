@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMLtoJSON async="false" continueOnError="false" enabled="true">
+    <Format>format</Format>
+    <Options>
+        <AttributeBlockName>attrblockname</AttributeBlockName>
+        <AttributePrefix>attrprefix</AttributePrefix>
+        <DefaultNamespaceNodeName>default</DefaultNamespaceNodeName>
+        <NamespaceBlockName>nblockname</NamespaceBlockName>
+        <NamespaceSeparator>separator</NamespaceSeparator>
+        <NullValue>true</NullValue>
+        <OutputPrefix>outprefix</OutputPrefix>
+        <OutputSuffix>outsuffix</OutputSuffix>
+        <TreatAsArray>
+            <Path unwrap="true">path1</Path>
+            <Path unwrap="false">path2</Path>
+        </TreatAsArray>
+        <RecognizeBoolean>true</RecognizeBoolean>
+        <RecognizeNull>true</RecognizeNull>
+        <RecognizeNumber>true</RecognizeNumber>
+        <StripLevels>4</StripLevels>
+        <TextAlwaysAsProperty>true</TextAlwaysAsProperty>
+        <TextNodeName>txtnode</TextNodeName>
+    </Options>
+    <OutputVariable>output</OutputVariable>
+    <Source>source</Source>
+</XMLtoJSON>
